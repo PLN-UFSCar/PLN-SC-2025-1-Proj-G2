@@ -1,0 +1,7 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.cooc filter=lfs diff=lfs merge=lfs -text
+corpus/english_portuguese.csv filter=lfs diff=lfs merge=lfs -text
+moses_working/model/phrase-table.gz filter=lfs diff=lfs merge=lfs -text
+moses_working/giza.en-pt/en-pt.cooc filter=lfs diff=lfs merge=lfs -text
+moses_working/giza.pt-en/pt-en.cooc filter=lfs diff=lfs merge=lfs -text
