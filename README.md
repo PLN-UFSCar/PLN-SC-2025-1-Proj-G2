@@ -60,7 +60,7 @@ perl ./BLEU/multi-bleu.perl ./corpus/corpus10k.clean.pt < ./corpus/corpus10k.out
 
 Para treinar e avaliar os modelos **pré-treinado** e **ajustado por fine-tuning** com base no `opus-mt-en-mul`, utilize o notebook:
 
-📄 **`Translation_PyTorch.ipynb`**
+**`Translation_PyTorch.ipynb`**
 
 Este notebook realiza:
 - download dos dados via Kaggle,
@@ -68,7 +68,7 @@ Este notebook realiza:
 - treinamento e avaliação do modelo,
 - e cálculo das métricas **BLEU**, **TER** e **avaliação qualitativa** das traduções.
 
-### ⚠️ Requisitos:
+### Requisitos:
 
 1. **Token da API do Kaggle**  
    - Baixe o arquivo `kaggle.json` com suas credenciais e salve conforme instruções do notebook.
